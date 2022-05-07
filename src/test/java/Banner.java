@@ -14,7 +14,7 @@ public class Banner {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://patriotlisting.sigmasolve.net:4203/auth/login");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
     /*@AfterTest
     public void closedriver() {
